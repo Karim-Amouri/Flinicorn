@@ -1,0 +1,30 @@
+//{"kle":valeur}
+[
+
+  {
+    "Question": null, /*ecrire la question*/
+    "reponse1": null, /*ecrir*/
+    "reponse2": null,
+    "reponse3": null,
+    "reponse4": null,
+    "ReponseCorrecte": "reponseX" //X = 1 ou 2 ou 3 ou 4
+  },
+
+
+  {
+    "Question": null, /*ecrire la question*/
+    "reponse1": null, /*ecrir*/
+    "reponse2": null,
+    "reponse3": null,
+    "reponse4": null,
+    "ReponseCorrecte": "reponseX" //X = 1 ou 2 ou 3 ou 4
+  },
+  //continuer
+  {
+
+  }
+
+
+
+
+]

@@ -1,0 +1,97 @@
+
+{
+  "QCMs": [
+    {
+      "Question": "Quel est la capitale de l'Algerie ?",
+      "reponse1": "Alger",
+      "reponse2": "Tripoli",
+      "reponse3": "Casablanca",
+      "reponse4": "Anneba",
+      "ReponseCorrecte": 1
+    },
+
+    {
+      "Question": "La capital de l'allemagne est:",
+      "reponse1": "Berne",
+      "reponse2": "Budapest",
+      "reponse3": "Berlin",
+      "reponse4": "Rome",
+      "ReponseCorrecte": 3
+    },
+
+    {
+      "Question": "Quel est le petit etat du monde ?",
+      "reponse1": "Tunisie",
+      "reponse2": "Le vaticane",
+      "reponse3": "Taiwan",
+      "reponse4": "Qatar",
+      "ReponseCorrecte": 2
+
+    },
+
+    {
+      "Question": "Dans quelle ville de France se trouve le musee  de Louvre?",
+      "reponse1": "Lille",
+      "reponse2": "Paris",
+      "reponse3": "Lyon",
+      "reponse4": "Marseille",
+      "ReponseCorrecte": 2
+    },
+
+    {
+      "Question": "Dans quel pays se trouve Big Ben?",
+      "reponse1": "en Belgique",
+      "reponse2": "en Angleterre",
+      "reponse3": "en Italie",
+      "reponse4": "en France",
+      "ReponseCorrecte": 2
+    },
+
+    {
+      "Question": "Quel est le capital de l'Italie ?",
+      "reponse1": "Palermo",
+      "reponse2": "Venise",
+      "reponse3": "Milan",
+      "reponse4": "Rome",
+      "ReponseCorrecte": 4
+    },
+
+    {
+      "Question": "Quel est le capital de la Suisse ?'",
+      "reponse1": "Vienne",
+      "reponse2": "Bern",
+      "reponse3": "Munich",
+      "reponse4": "Zurich",
+      "ReponseCorrecte": 2
+    },
+
+    {
+      "Question": "Les quelles de ces capitale ne situe en Afrique ?",
+      "reponse1": "Dakar",
+      "reponse2": "Le caire",
+      "reponse3": "Séoul",
+      "reponse4": "Alger",
+      "ReponseCorrecte": 3
+    },
+
+    {
+      "Question": "Quelle est la particularité du sucre,la capital de Bolivie ?",
+      "reponse1": "c'est la plus petit capitale au monde",
+      "reponse2": "c'est la plus élevée du monde",
+      "reponse3": "c'est la capilale la plus peupleé du monde",
+      "reponse4": "Aucune",
+      "ReponseCorrecte": 2
+    },
+
+    {
+      "Question": " La Quelle de ces villes n'est pas une capitale ?",
+      "reponse1": "Naple",
+      "reponse2": "Istanbul",
+      "reponse3": "bucarest",
+      "reponse4": "Lisbon",
+      "ReponseCorrecte": 1
+    }
+
+  ],
+  "type" :  0
+}
