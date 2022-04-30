@@ -76,10 +76,10 @@
     {
       "Question": "Quelle est la bonne reponse",
       "reponse1": "188<187",
-      "reponse2": "198>189",
+      "reponse2": "198>198",
       "reponse3": "56<65",
       "reponse4": "72<27",
-      "reponseCorrecte": 2
+      "reponseCorrecte": 3
     }
   ],
   "type": 2

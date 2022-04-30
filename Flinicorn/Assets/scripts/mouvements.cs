@@ -64,11 +64,4 @@ public class mouvements : MonoBehaviour
     {
         if (collision.gameObject.tag == "Ground") grounded = true;
     }
-    
-    public void MoveForward()
-    {
-        body.velocity = new Vector2(speed, body.velocity.y);
-
-
-    }
 }

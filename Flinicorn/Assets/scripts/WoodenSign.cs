@@ -9,7 +9,7 @@ public class WoodenSign : MonoBehaviour
     [SerializeField] private QuestionsManager QcmManager;
 
     public int index;
-    public bool Visited = false;
+    //public bool Visited = false;
     
     private bool InRange = false;
 
