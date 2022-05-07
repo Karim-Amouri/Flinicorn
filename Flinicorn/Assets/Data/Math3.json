@@ -1,0 +1,86 @@
+{
+  "QCMs": [
+
+    {
+      "Question": "un marchand a vendu 45 boisson gazeux dans l'apres midi.Il lui en reste 54.Combien avait-il de boission le matin ",
+      "reponse1": "17",
+      "reponse2": "9",
+      "reponse3": "85",
+      "reponse4": "99",
+      "ReponseCorrecte": 4
+    },
+
+
+    {
+      "Question": "Quelle est la decompostion fause de ce nombre 456",
+      "reponse1": "456=483-33",
+      "reponse2": "456=50*9+3-3",
+      "reponse3": "456=45*9+51",
+      "reponse4": "456=56*6-200",
+      "ReponseCorrecte": 3
+    },
+
+    {
+      "Question": "quel est le nombre just avant 2fois et le nombre just aprés de 187",
+      "reponse1": "188 et 190",
+      "reponse2": "186 et 188",
+      "reponse3": "178 et 179",
+      "reponse4": "185 et 188",
+      "ReponseCorrecte": 4
+    },
+
+    {
+      "Question": "écrire ce nombre en chiffres  soixante-onze ",
+      "reponse1": "11",
+      "reponse2": "60",
+      "reponse3": "71",
+      "reponse4": "81",
+      "ReponseCorrecte": 3
+    },
+    {
+      "Question": " Quel est le nombre pair? ",
+      "reponse1": "106",
+      "reponse2": "103",
+      "reponse3": "101",
+      "reponse4": "105",
+      "ReponseCorrecte": 1
+
+    },
+    {
+      "Question": "quel est la definition du nombre premier",
+      "reponse1": "c'est nombre pair",
+      "reponse2": "c'est un nombre qui divise par 1 et par lui meme",
+      "reponse3": "c'est un nombre impair",
+      "reponse4": "c'est un nombre ni pair ni impaire",
+      "ReponseCorrecte": 2
+    },
+    {
+      "Question": "Quels sont les nombres compris entre 119 et 149 qui se terminent par 5?",
+      "reponse1": "105",
+      "reponse2": "115",
+      "reponse3": "105",
+      "reponse4": "135",
+      "ReponseCorrecte": 4
+    },
+    {
+
+      "Question": "la somme suivante:(50-19+101) correspondante à le nombre:",
+      "reponse1": "132",
+      "reponse2": "169",
+      "reponse3": "56",
+      "reponse4": "159",
+      "ReponseCorrecte": 1
+
+    },
+    {
+      "Question": "Quelle est la bonne reponse ",
+      "reponse1": "188<187",
+      "reponse2": "169>456",
+      "reponse3": "456<65",
+      "reponse4": "772<827",
+      "ReponseCorrecte": 4
+    }
+
+
+  ]
+}

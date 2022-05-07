@@ -1,14 +1,6 @@
 {
 
-  "Qcms" : [
-    {
-      "Question": " Ahmed achete 2kg de bannane ,le prix de kg 2560 et achete 1kg de peché à 1540 .A combien s'élève le prix d'achat ?",
-      "reponse1": "6660",
-      "reponse2": "5260",
-      "reponse3": "8620",
-      "reponse4": "6500",
-      "ReponseCorrecte": 1
-    },
+  "QCMs" : [
     {
       "Question": "combien 650/13",
       "reponse1": "55",
@@ -77,7 +69,7 @@
       "reponse2": "198>189",
       "reponse3": "105>112",
       "reponse4": "72<27",
-      "reponseCorrecte": 2
+      "ReponseCorrecte": 2
     },
     {
       "Question": "combien la resultat de cette experssion '123*2/8/4",
@@ -85,7 +77,7 @@
       "reponse2": "3,2",
       "reponse3": "7,7",
       "reponse4": "36",
-      "reponseCorrecte": 3
+      "ReponseCorrecte": 3
     },
     {
 
@@ -94,7 +86,7 @@
       "reponse2": "136/2=25",
       "reponse3": "5*22=125",
       "reponse4": "78*2=125",
-      "reponseCorrecte": 1
+      "ReponseCorrecte": 1
     }
 
   ]

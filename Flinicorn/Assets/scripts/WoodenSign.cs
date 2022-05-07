@@ -7,6 +7,7 @@ public class WoodenSign : MonoBehaviour
 {
     [SerializeField] private GameObject popup;
     [SerializeField] private QuestionsManager QcmManager;
+    [SerializeField] private JoyButton open;
 
     public int index;
     //public bool Visited = false;
@@ -16,11 +17,10 @@ public class WoodenSign : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (InRange && Input.GetKeyDown("b"))
+        if (InRange && open.Pressed)
         {
             popup.SetActive(true);
             QcmManager.CurrentIndex = index;
-            Debug.Log(index);
             QcmManager.Assigne();
         }
     }

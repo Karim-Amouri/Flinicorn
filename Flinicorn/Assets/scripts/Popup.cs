@@ -34,7 +34,7 @@ public class Popup : MonoBehaviour
     {
         yield return new WaitForSeconds(0.45f);
         state = true; 
-        QcmManager.Unassign();
+        if (QcmManager != null) QcmManager.Unassign();
         Pop.SetActive(false);
         //Debug.Log("hi");
     }

@@ -1,0 +1,84 @@
+{
+  "QCMs" : [
+    {
+      "Question": "le suivant de lundi ",
+      "reponse1": "mardi",
+      "reponse2": "jeudi",
+      "reponse3": "vendredi",
+      "reponse4": "dimanche",
+      "ReponseCorrecte": 1
+    },
+    {
+      "Question": "quels le petit du l'animal 'canard",
+      "reponse1": "canarde",
+      "reponse2": "canare",
+      "reponse3": "caneton",
+      "reponse4": "canatton",
+      "ReponseCorrecte": 3
+    },
+    {
+      "Question": "quel est le jours férié",
+      "reponse1": "dimanche",
+      "reponse2": "lundi",
+      "reponse3": "vendredi",
+      "reponse4": "mardi",
+      "ReponseCorrecte": 1
+    },
+    {
+      "Question": "Quellle est le synonyme de mot polaire ",
+      "reponse1": "colaire",
+      "reponse2": "glacial",
+      "reponse3": "rulial",
+      "reponse4": "obsédant",
+      "ReponseCorrecte": 2
+    },
+    {
+      "Question": "choisir le mot qui convient 'La petite fille berce sa ----'",
+      "reponse1": "louche",
+      "reponse2": "mouche",
+      "reponse3": "poupée",
+      "reponse4": "rouge",
+      "ReponseCorrecte": 3
+    },
+    {
+      "Question": "Lequel de ces mots correspond à ce definition 'une contravention'",
+      "reponse1": "un amend",
+      "reponse2": "une amende",
+      "reponse3": "une promenade ",
+      "reponse4": "une balade",
+      "ReponseCorrecte": 2
+    },
+    {
+      "Question": "Le petit animal de poule ",
+      "reponse1": "poussine",
+      "reponse2": "poussin",
+      "reponse3": "poulin",
+      "reponse4": "pulein",
+      "ReponseCorrecte": 2
+    },
+    {
+      "Question": "Lequel de ces mots correspond à ca definition'Saut que fait une voiture'",
+      "reponse1": "un chaos",
+      "reponse2": "un cahotte",
+      "reponse3": "un cheminot",
+      "reponse4": "un cahot",
+      "ReponseCorrecte": 4
+    },
+    {
+      "Question": "Quelle est le synonyme de mot abondant",
+      "reponse1": "foisonnant",
+      "reponse2": "recommandale",
+      "reponse3": "rutilant",
+      "reponse4": "polaire",
+      "ReponseCorrecte": 1
+    },
+    {
+      "Question": "choisir le mot qui convient 'J'enfile mon pull ---'",
+      "reponse1": "couche",
+      "reponse2": "soupe",
+      "reponse3": "poupée",
+      "reponse4": "rouge",
+      "ReponseCorrecte": 4
+    }
+  ]
+}

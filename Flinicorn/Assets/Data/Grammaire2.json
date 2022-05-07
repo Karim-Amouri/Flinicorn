@@ -1,0 +1,77 @@
+{
+  "QCMs" : [
+    {
+      "Question": "Quel est le détermininant démonstratif correct pour cette phrase '' ",
+      "reponse1": "ce",
+      "reponse2": "cet",
+      "reponse3": "ces",
+      "reponse4": "cette",
+      "ReponseCorrecte": 2
+    },
+    {
+      "Question": "compléte le mot --- heure par:",
+      "reponse1": "la",
+      "reponse2": "le",
+      "reponse3": "l'",
+      "reponse4": "les",
+      "ReponseCorrecte": 3
+    },
+    {
+      "Question": "quel est le nom feminin de chaud",
+      "reponse1": "chaud",
+      "reponse2": "chaude",
+      "reponse3": "chouds",
+      "reponse4": "chauds",
+      "ReponseCorrecte": 2
+    },
+    {
+      "Question": "qeul est l'adverbe de mot doux ",
+      "reponse1": "douce",
+      "reponse2": "doucement",
+      "reponse3": "douse",
+      "reponse4": "dousement",
+      "ReponseCorrecte": 2
+    },
+    {
+      "Question": "Quel(s) est (sont) les adverbes parmi ces mots",
+      "reponse1": "grammes",
+      "reponse2": "précisement",
+      "reponse3": "attendez",
+      "reponse4": "tendresse",
+      "ReponseCorrecte": 2
+    },
+    {
+      "Question": "quel est le feminin de mortel",
+      "reponse1": "mortele",
+      "reponse2": "mortelle",
+      "reponse3": "mortellement",
+      "reponse4": "mortalité",
+      "ReponseCorrecte": 2
+    },
+    {
+      "Question": "quel est le mot correct pour cette phrase a un sense 'j'ai acheté un cadeau pour ma ----",
+      "reponse1": "maire",
+      "reponse2": "mer",
+      "reponse3": "mére",
+      "reponse4": "meiree",
+      "ReponseCorrecte": 3
+    },
+    {
+      "Question": " quels sont les adverbes parmi ces mots :",
+      "reponse1": "content",
+      "reponse2": "chaud",
+      "reponse3": "soigneysement",
+      "reponse4": "parmi",
+      "ReponseCorrecte": 3
+
+    },
+    {
+      "Question": "compléte cette mot '--- humain' par:",
+      "reponse1": "la",
+      "reponse2": "le",
+      "reponse3": "l'",
+      "reponse4": "les",
+      "reponseCorrecte": 3
+    }
+  ]
+}

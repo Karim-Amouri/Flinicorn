@@ -1,14 +1,14 @@
 {
 
-  "Qcms" : [
+  "QCMs": [
 
     {
       "Question": "quel est le pays qui son trapeau contient des bandes noir,jaune et rouge",
-      "reponse1": "Bruxelle",
-      "reponse2": "Athéne",
+      "reponse1": "Belgique",
+      "reponse2": "Gréce",
       "reponse3": "Russia",
       "reponse4": "France",
-      "ReponseCorrecte": " 1"
+      "ReponseCorrecte": 1
     },
     {
       "Question": "Ou est situé la France?",
@@ -16,7 +16,7 @@
       "reponse2": "Europe",
       "reponse3": " l'océan Arctique au nord",
       "reponse4": "USA",
-      "ReponseCorrecte": "2"
+      "ReponseCorrecte": 2
     },
 
     {
@@ -25,7 +25,7 @@
       "reponse2": "Istanbul",
       "reponse3": "Izmur",
       "reponse4": "Bursa",
-      "ReponseCorrecte": "1"
+      "ReponseCorrecte": 1
     },
 
     {
@@ -34,7 +34,7 @@
       "reponse2": "48 million",
       "reponse3": "38 million",
       "reponse4": "25 million",
-      "ReponseCorrecte": "3"
+      "ReponseCorrecte": 3
     },
     {
       "Question": "Quelle est la classe de mexique de point de vue popullation ?",
@@ -42,7 +42,7 @@
       "reponse2": "1",
       "reponse3": "10",
       "reponse4": "12",
-      "ReponseCorrecte": "4"
+      "ReponseCorrecte": 4
     },
     {
       "Question": "Quel  est le pays qui son trapon contient des bandes rouge,blanc et bleu ?",
@@ -50,7 +50,7 @@
       "reponse2": "Afrique",
       "reponse3": "Amsterdam",
       "reponse4": "Allmagne",
-      "ReponseCorrecte": " 3"
+      "ReponseCorrecte": 3
     },
     {
       "Question": "Quelles sont les couleurs du trapeau d'Espagne' ",
@@ -58,15 +58,15 @@
       "reponse2": "rouge puis jaune(contient un synbole) puis bleu ",
       "reponse3": "bleu puis jaune(contient un synbole) puis vert",
       "reponse4": "rouge puis jaune(contient un synbole) puis rouge",
-      "ReponseCorrecte": "4"
+      "ReponseCorrecte": 4
     },
     {
       "Question": "Quel est le pays qui caractérisé par le pétrole ?",
       "reponse1": "Le Golfe Persique",
       "reponse2": "Tunisia",
       "reponse3": "France",
-      "reponse4": "Arabie saoudite",
-      "ReponseCorrecte": "1,4"
+      "reponse4": "Russie",
+      "ReponseCorrecte": 1
 
     },
     {
@@ -75,7 +75,7 @@
       "reponse2": "Bursa",
       "reponse3": "Masou",
       "reponse4": "Kiev",
-      "reponseCorrecte": "reponse 3"
+      "ReponseCorrecte": 3
     },
     {
       "Question": "Quel est le pays de Chine? ",
@@ -83,7 +83,7 @@
       "reponse2": "Europe",
       "reponse3": "Amerique nord",
       "reponse4": "Asie de l'Est",
-      "reponseCorrecte": "4"
+      "ReponseCorrecte": 4
     }
 
 

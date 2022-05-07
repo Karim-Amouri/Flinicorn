@@ -1,0 +1,90 @@
+{
+  "QCMs" : [
+
+    {
+      "Question": "quel est le pays qui son trapeau contient des bandes rouge,blanc(synbole de couleur vert) et rouge",
+      "reponse1": "Tunisie",
+      "reponse2": "Egypte",
+      "reponse3": "Liban",
+      "reponse4": "Algerie",
+      "ReponseCorrecte": 3
+    },
+    {
+      "Question": "Ou est situé la Libye ?",
+      "reponse1": " Afrique du Nord ",
+      "reponse2": "Europe",
+      "reponse3": " l'océan Arctique au nord",
+      "reponse4": "nord-américain",
+      "ReponseCorrecte": 1
+    },
+
+    {
+      "Question": "quelle est la capitale du Syrie",
+      "reponse1": "Lagos",
+      "reponse2": "Homs",
+      "reponse3": "Damas",
+      "reponse4": "Alep",
+      "ReponseCorrecte": 3
+    },
+
+    {
+      "Question": "Combien d'habitants de Libye",
+      "reponse1": "50 millions",
+      "reponse2": "6 million",
+      "reponse3": "7 million",
+      "reponse4": "28 million",
+      "ReponseCorrecte": 3
+    },
+    {
+      "Question": "Quelle est la classe de Irak de point de vue surface?",
+      "reponse1": "420 km2",
+      "reponse2": "120 km2",
+      "reponse3": "265 km2",
+      "reponse4": "438 km2",
+      "ReponseCorrecte": 4
+    },
+    {
+      "Question": "Quelle est la place de Qatar au point du vue  de production de gaz naturel?",
+      "reponse1": "1",
+      "reponse2": "7",
+      "reponse3": "12",
+      "reponse4": "5",
+      "ReponseCorrecte": 4
+    },
+    {
+      "Question": "Quelles sont les couleurs du trapeau d'Ukraine' ",
+      "reponse1": "rouge puis blanc ",
+      "reponse2": "rouge puis jaune ",
+      "reponse3": "bleu puis jaune",
+      "reponse4": "rouge puis vert",
+      "ReponseCorrecte": 3
+    },
+    {
+      "Question": "Quel est le pays qui caractérisé par le tour eiffel ?",
+      "reponse1": "Maroc",
+      "reponse2": "Tunia",
+      "reponse3": "France",
+      "reponse4": "Paris",
+      "ReponseCorrecte": 3
+
+    },
+    {
+      "Question": "Quelle est la capitale de Liban ?",
+      "reponse1": "Tyr",
+      "reponse2": "Beyrouth",
+      "reponse3": "charm-chikh",
+      "reponse4": "Le Caire",
+      "ReponseCorrecte": 2
+    },
+    {
+      "Question": "Ou est situé Emirate arabes ? ",
+      "reponse1": "Afrique",
+      "reponse2": "Europe",
+      "reponse3": "Amerique nord",
+      "reponse4": "péninsule arabique",
+      "ReponseCorrecte": 4
+    }
+
+
+  ]
+}
