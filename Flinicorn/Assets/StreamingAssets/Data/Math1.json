@@ -1,0 +1,101 @@
+{
+
+  "QCMs": [
+    {
+      "Question": "combien 5*16",
+      "reponse1": "82",
+      "reponse2": "60",
+      "reponse3": "80",
+      "reponse4": "65",
+      "ReponseCorrecte": 3
+    },
+    {
+      "Question": "combien 365/5",
+      "reponse1": "73",
+      "reponse2": "22",
+      "reponse3": "43",
+      "reponse4": "68",
+      "ReponseCorrecte": 1
+    },
+
+    {
+      "Question": "Ecrire ce nombre en alphabet '25'",
+      "reponse1": "vingt-huit",
+      "reponse2": "quatre-vint-cinq",
+      "reponse3": "quarante-cinq",
+      "reponse4": "vingt-cinq",
+      "ReponseCorrecte": 4
+    },
+
+    {
+      "Question": "écrire ce nombre en chiffres quatre-vint-dix-huit ",
+      "reponse1": "88",
+      "reponse2": "98",
+      "reponse3": "28",
+      "reponse4": "828",
+      "ReponseCorrecte": 2
+    },
+    {
+      "Question": "Quel est  les  nombres compris entre 1669 et 1758",
+      "reponse1": "1663",
+      "reponse2": "1735",
+      "reponse3": "1656",
+      "reponse4": "1655",
+      "ReponseCorrecte": 2
+
+    },
+    {
+      "Question": "Quel  est le rangemment juste ?",
+      "reponse1": "54<66<82<76<67",
+      "reponse2": "54<66<67<45<82",
+      "reponse3": "54<66<75<80",
+      "reponse4": "54<69<78<25",
+      "ReponseCorrecte": 3
+    },
+    {
+
+      "Question": "completer par la marque de comparasion  conviennent pour ce resultat '21--96=117' ",
+      "reponse1": "+",
+      "reponse2": "*",
+      "reponse3": "/",
+      "reponse4": "-",
+      "ReponseCorrecte": 1
+    },
+    {
+
+      "Question": " Quelle est la resultat de l'experssion suivante:'123+56-42'",
+      "reponse1": "145",
+      "reponse2": "189",
+      "reponse3": "53",
+      "reponse4": "137",
+      "ReponseCorrecte": 4
+
+    },
+    {
+      "Question": "Quelle est la bonne reponse",
+      "reponse1": "188<187",
+      "reponse2": "198>189",
+      "reponse3": "56<65",
+      "reponse4": "72<27",
+      "ReponseCorrecte": 2
+    },
+    {
+      "Question": "combien la resultat de cette experssion '123*(32/8)/4",
+      "reponse1": "965",
+      "reponse2": "32",
+      "reponse3": "123",
+      "reponse4": "36",
+      "ReponseCorrecte": 3
+    },
+    {
+
+      "Question": "Quelle est la bonne reponse",
+      "reponse1": "185/5=37",
+      "reponse2": "136/2=25",
+      "reponse3": "5*22=125",
+      "reponse4": "78*2=125",
+      "ReponseCorrecte": 1
+    }
+
+  ]
+}

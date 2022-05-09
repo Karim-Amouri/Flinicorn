@@ -7,6 +7,7 @@ using TMPro;
 using UnityEngine.EventSystems;
 using System.Linq;
 using UnityEngine.SceneManagement;
+using System.Text;
 
 public class QuestionsManager : MonoBehaviour
 {
@@ -39,7 +40,7 @@ public class QuestionsManager : MonoBehaviour
     void Awake()
     {
         string path,path0,path1,path2;
-        string jsonString;
+        string jsonString = new string("");
 
         for (int i=0; i < 3; i++) score[i] = 0;
         themeNumber = new int[3];
@@ -52,63 +53,64 @@ public class QuestionsManager : MonoBehaviour
         }
         else
         {
-            path = Application.dataPath + "/Data/Theme Number.json";
-            jsonString = File.ReadAllText(path);
+            jsonString = LoadData("/Data/Theme Number.json");
             ThemeNumberUpdate themeNumberUpdate = JsonUtility.FromJson<ThemeNumberUpdate>(jsonString);
             themeNumber[0] = themeNumberUpdate.geographie;
             themeNumber[1] = themeNumberUpdate.grammar;
             themeNumber[2] = themeNumberUpdate.math;
         }
+
         switch (sceneID)
         {
             case 1:
-                path0 = "/Data/Geographie.json";
-                path1 = "/Data/Grammaire.json";
-                path2 = "/Data/Math.json";
+                path0 = "Geographie";
+                path1 = "Grammaire";
+                path2 = "Math";
                 break;
             case 2:
-                path0 = "/Data/Geographie1.json";
-                path1 = "/Data/Grammaire1.json";
-                path2 = "/Data/Math1.json";
+                path0 = "Geographie1";
+                path1 = "Grammaire1";
+                path2 = "Math1";
                 break;
             case 3:
-                path0 = "/Data/Geographie2.json";
-                path1 = "/Data/Grammaire2.json";
-                path2 = "/Data/Math2.json";
+                path0 = "Geographie2";
+                path1 = "Grammaire2";
+                path2 = "Math2";
                 break;
             case 4:
-                path0 = "/Data/Geographie3.json";
-                path1 = "/Data/Grammaire3.json";
-                path2 = "/Data/Math3.json";
+                path0 = "Geographie3";
+                path1 = "Grammaire3";
+                path2 = "Math3";
                 break;
             default:
-                path0 = "/Data/Geographie.json";
-                path1 = "/Data/Grammaire.json";
-                path2 = "/Data/Math.json";
+                path0 = "Geographie";
+                path1 = "Grammaire";
+                path2 = "Math";
                 break;
         }
-        //for (int i = 0; i < 3; i++) { Debug.Log(themeNumber[i]); }
         list = new ListQCMs();
 
-        path = Application.dataPath + path0;
+        /*path = Application.streamingAssetsPath + path0;
         jsonString = File.ReadAllText(path);
-        Debug.Log(jsonString);
+        Debug.Log(jsonString);*/
 
+        TextAsset file = Resources.Load<TextAsset>(path0);
+
+        //jsonString = file.ToString();
+        jsonString = Encoding.GetEncoding("iso-8859-1").GetString(file.bytes);
+        Debug.Log(file);
 
         ListQCMs listGeo = JsonUtility.FromJson<ListQCMs>(jsonString);
-        //listGeo.Shuffle();
+        listGeo.Shuffle();
 
         for (int i = 0; i < themeNumber[0]; i++)
         {
-            Debug.Log(i);
-            Debug.Log(listGeo.QCMs.Count);
             listGeo[i].type = 0;
-            Debug.Log(listGeo[i]);
             list.Add(listGeo[i]);
         }
 
-        path = Application.dataPath + path1;
-        jsonString = File.ReadAllText(path);
+        file = Resources.Load<TextAsset>(path1);
+        jsonString = Encoding.GetEncoding("iso-8859-1").GetString(file.bytes);
 
         ListQCMs listGrammar = JsonUtility.FromJson<ListQCMs>(jsonString);
         listGrammar.Shuffle();
@@ -118,8 +120,9 @@ public class QuestionsManager : MonoBehaviour
             listGrammar[i].type = 1;
             list.Add(listGrammar[i]);
         }
-        path = Application.dataPath + path2;
-        jsonString = File.ReadAllText(path);
+
+        file = Resources.Load<TextAsset>(path2);
+        jsonString = Encoding.GetEncoding("iso-8859-1").GetString(file.bytes);
 
         ListQCMs listMath = JsonUtility.FromJson<ListQCMs>(jsonString);
         listMath.Shuffle();
@@ -132,6 +135,9 @@ public class QuestionsManager : MonoBehaviour
         list.Shuffle();
         
         color = button1.GetComponent<Image>().color;
+        
+        //textScore.text = intScore.ToString();
+
     }
 
     void Update()
@@ -143,7 +149,7 @@ public class QuestionsManager : MonoBehaviour
             if (intScore > QuestionsNumber / 2) NextLevel();
             else
             {
-                Debug.Log("You lose"); LosePopup.SetActive(true);
+                LosePopup.SetActive(true);
             }
         }
     }
@@ -186,6 +192,7 @@ public class QuestionsManager : MonoBehaviour
                 intScore++;
                 score[list[CurrentIndex].type]++;
 
+                //textScore.text = intScore.ToString();
                 Debug.Log("Correcte");
             }
             else
@@ -208,8 +215,8 @@ public class QuestionsManager : MonoBehaviour
 
     public void NextLevel()
     {
-        Debug.Log("Next Level");
-        for (int i = 0; i < 3; i++) { Debug.Log("Score: " + score[i]); }
+        //Debug.Log("Next Level");
+        //for (int i = 0; i < 3; i++) { Debug.Log("Score: " + score[i]); }
         /*
             score[0] = 3;
             score[1] = 2;
@@ -277,10 +284,24 @@ public class QuestionsManager : MonoBehaviour
         aux.grammar = themeNumber[1];
         aux.math = themeNumber[2];
 
-        File.WriteAllText(Application.dataPath + "/Data/Theme Number.json", JsonUtility.ToJson(aux));
-        for (int i = 0; i < 3; i++) { Debug.Log("Score: " + score[i]); }
-        for (int i = 0; i < 3; i++) { Debug.Log("avai: " + available[i]); }
-        for (int i = 0; i < 3; i++) { Debug.Log("Final: " + themeNumber[i]); }
+        string folderPath = Application.persistentDataPath + "/Data/";
+        string filePath = folderPath + "Theme Number.json";
+
+        if (!Directory.Exists(folderPath))
+        {
+            Directory.CreateDirectory(folderPath);
+        }
+        if (!File.Exists(filePath))
+        {
+            File.Create(filePath).Close();
+        }
+        File.WriteAllText(filePath, JsonUtility.ToJson(aux));
+        //File.WriteAllText(Application.persistentDataPath + "/Data/Theme Number.json", JsonUtility.ToJson(aux));
+        /*
+            for (int i = 0; i < 3; i++) { Debug.Log("Score: " + score[i]); }
+            for (int i = 0; i < 3; i++) { Debug.Log("avai: " + available[i]); }
+            for (int i = 0; i < 3; i++) { Debug.Log("Final: " + themeNumber[i]); }
+        */
         test = true;
 
         lastPopup.GetComponent<LastPopup>().Assigne();
@@ -289,6 +310,22 @@ public class QuestionsManager : MonoBehaviour
     public void NextLevelExecute()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    private string LoadData(string path)
+    {
+        string outputString = new string("");
+        using (StreamReader sr = new StreamReader(Application.persistentDataPath + path))
+        {
+            string line;
+            // Read and display lines from the file until the end of
+            // the file is reached.
+            while ((line = sr.ReadLine()) != null)
+            {
+                outputString += line;
+            }
+        }
+        return outputString;
     }
 
     [System.Serializable]

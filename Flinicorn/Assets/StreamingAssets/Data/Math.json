@@ -1,0 +1,86 @@
+{
+  "QCMs": [
+    {
+      "Question": "un marchand a vendu 37 glaces dans l'apres midi.Il lui en reste54.Combien avait-il de glacesle matin ",
+      "reponse1": "17",
+      "reponse2": "21",
+      "reponse3": "85",
+      "reponse4": "91",
+      "ReponseCorrecte": 4
+    },
+
+
+    {
+      "Question": "Quelle est la decompostion fause de ce nombre 89",
+      "reponse1": "89=80+5+4",
+      "reponse2": "89= 60+13+16",
+      "reponse3": "89=67+3+19",
+      "reponse4": "89= 67+5+18",
+      "ReponseCorrecte": 4
+    },
+
+    {
+      "Question": "quel est le nombre just avant et le nombre just aprés de 89",
+      "reponse1": "88 et 90",
+      "reponse2": "84 et 87",
+      "reponse3": "88 et 87",
+      "reponse4": "90 et 85",
+      "ReponseCorrecte": 1
+    },
+
+    {
+      "Question": "écrire ce nombre en chiffres quatre_vingt-huit :",
+      "reponse1": "48",
+      "reponse2": "88",
+      "reponse3": "84",
+      "reponse4": "28",
+      "ReponseCorrecte": 2
+    },
+    {
+      "Question": "Quel est  les  nombres compris entre 102 et 108",
+      "reponse1": "109",
+      "reponse2": "106",
+      "reponse3": "101",
+      "reponse4": "100",
+      "ReponseCorrecte": 2
+
+    },
+    {
+      "Question": "Quel  est le rangemment juste ?",
+      "reponse1": "54<66<82<76<67",
+      "reponse2": "54<66<67<45<82",
+      "reponse3": "54<66<75<80",
+      "reponse4": "54<69<78<25",
+      "ReponseCorrecte": 3
+    },
+
+
+    {
+      "Question": "Quels est le nombre compris entre 119 et 149 et devisible par 5?",
+      "reponse1": "105",
+      "reponse2": "115",
+      "reponse3": "125",
+      "reponse4": "136",
+      "ReponseCorrecte": 3
+    },
+    {
+
+      "Question": "la somme suivante:(50+19+101) correspondante à le nombre:",
+      "reponse1": "158",
+      "reponse2": "170",
+      "reponse3": "198",
+      "reponse4": "159",
+      "ReponseCorrecte": 2
+
+    },
+    {
+      "Question": "Quelle est la bonne reponse",
+      "reponse1": "188<187",
+      "reponse2": "198>198",
+      "reponse3": "56<65",
+      "reponse4": "72<27",
+      "ReponseCorrecte": 3
+    }
+  ],
+  "type": 2
+}

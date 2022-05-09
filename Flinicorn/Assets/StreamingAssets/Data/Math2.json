@@ -1,0 +1,93 @@
+{
+
+  "QCMs" : [
+    {
+      "Question": "combien 650/13",
+      "reponse1": "55",
+      "reponse2": "22",
+      "reponse3": "50",
+      "reponse4": "68",
+      "ReponseCorrecte": 3
+    },
+
+    {
+      "Question": "Ecrire ce nombre en alphabet '63'",
+      "reponse1": "soixante-sept",
+      "reponse2": "soixante-trois",
+      "reponse3": "quarante-cinq",
+      "reponse4": "vingt-size",
+      "ReponseCorrecte": 2
+    },
+
+    {
+      "Question": "écrire ce nombre en chiffres quatre-vingt-seize  ",
+      "reponse1": "88",
+      "reponse2": "98",
+      "reponse3": "96",
+      "reponse4": "816",
+      "ReponseCorrecte": 3
+    },
+    {
+      "Question": "Quel est  les  nombres compris entre 1669 et 1758",
+      "reponse1": "1663",
+      "reponse2": "1735",
+      "reponse3": "1656",
+      "reponse4": "1655",
+      "ReponseCorrecte": 2
+
+    },
+    {
+      "Question": "Quel  est le rangemment juste ?",
+      "reponse1": "54<66<82<76<67",
+      "reponse2": "54<66<67<45<82",
+      "reponse3": "54<66<75<80",
+      "reponse4": "54<69<78<25",
+      "ReponseCorrecte": 3
+    },
+    {
+
+      "Question": "completer par la marque de comparasion  conviennent pour ce resultat '1523--36--6--262'",
+      "reponse1": "+,/,+",
+      "reponse2": "*,/,+",
+      "reponse3": "+,/,=",
+      "reponse4": "/,+,=",
+      "ReponseCorrecte": 3
+    },
+    {
+
+      "Question": " Quelle est la resultat de l'experssion suivante:'123+56-42'",
+      "reponse1": "145",
+      "reponse2": "189",
+      "reponse3": "53",
+      "reponse4": "137",
+      "ReponseCorrecte": 4
+
+    },
+    {
+      "Question": "Quelle est la bonne reponse",
+      "reponse1": "1951<1856",
+      "reponse2": "198>189",
+      "reponse3": "105>112",
+      "reponse4": "72<27",
+      "ReponseCorrecte": 2
+    },
+    {
+      "Question": "combien la resultat de cette experssion '123*2/8/4",
+      "reponse1": "6,1",
+      "reponse2": "3,2",
+      "reponse3": "7,7",
+      "reponse4": "36",
+      "ReponseCorrecte": 3
+    },
+    {
+
+      "Question": "Quelle est la bonne reponse",
+      "reponse1": "185/5=37",
+      "reponse2": "136/2=25",
+      "reponse3": "5*22=125",
+      "reponse4": "78*2=125",
+      "ReponseCorrecte": 1
+    }
+
+  ]
+}

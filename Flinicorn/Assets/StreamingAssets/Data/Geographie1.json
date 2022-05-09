@@ -1,0 +1,91 @@
+{
+
+  "QCMs": [
+
+    {
+      "Question": "quel est le pays qui son trapeau contient des bandes noir,jaune et rouge",
+      "reponse1": "Belgique",
+      "reponse2": "Gréce",
+      "reponse3": "Russia",
+      "reponse4": "France",
+      "ReponseCorrecte": 1
+    },
+    {
+      "Question": "Ou est situé la France?",
+      "reponse1": " Afrique",
+      "reponse2": "Europe",
+      "reponse3": " l'océan Arctique au nord",
+      "reponse4": "USA",
+      "ReponseCorrecte": 2
+    },
+
+    {
+      "Question": "quel est la capitale du turkia",
+      "reponse1": "Ankara",
+      "reponse2": "Istanbul",
+      "reponse3": "Izmur",
+      "reponse4": "Bursa",
+      "ReponseCorrecte": 1
+    },
+
+    {
+      "Question": "Combien d'habitants à la Canada",
+      "reponse1": "35 millions",
+      "reponse2": "48 million",
+      "reponse3": "38 million",
+      "reponse4": "25 million",
+      "ReponseCorrecte": 3
+    },
+    {
+      "Question": "Quelle est la classe de mexique de point de vue popullation ?",
+      "reponse1": "14",
+      "reponse2": "1",
+      "reponse3": "10",
+      "reponse4": "12",
+      "ReponseCorrecte": 4
+    },
+    {
+      "Question": "Quel  est le pays qui son trapon contient des bandes rouge,blanc et bleu ?",
+      "reponse1": "France",
+      "reponse2": "Afrique",
+      "reponse3": "Amsterdam",
+      "reponse4": "Allmagne",
+      "ReponseCorrecte": 3
+    },
+    {
+      "Question": "Quelles sont les couleurs du trapeau d'Espagne' ",
+      "reponse1": "rouge puis blanc puis rouge",
+      "reponse2": "rouge puis jaune(contient un synbole) puis bleu ",
+      "reponse3": "bleu puis jaune(contient un synbole) puis vert",
+      "reponse4": "rouge puis jaune(contient un synbole) puis rouge",
+      "ReponseCorrecte": 4
+    },
+    {
+      "Question": "Quel est le pays qui caractérisé par le pétrole ?",
+      "reponse1": "Le Golfe Persique",
+      "reponse2": "Tunisia",
+      "reponse3": "France",
+      "reponse4": "Russie",
+      "ReponseCorrecte": 1
+
+    },
+    {
+      "Question": "Quelle est la capitale de Russie ",
+      "reponse1": "ukraine",
+      "reponse2": "Bursa",
+      "reponse3": "Masou",
+      "reponse4": "Kiev",
+      "ReponseCorrecte": 3
+    },
+    {
+      "Question": "Quel est le pays de Chine? ",
+      "reponse1": "Afrique",
+      "reponse2": "Europe",
+      "reponse3": "Amerique nord",
+      "reponse4": "Asie de l'Est",
+      "ReponseCorrecte": 4
+    }
+
+
+  ]
+}

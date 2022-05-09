@@ -1,0 +1,85 @@
+{
+  "QCMs": [
+
+    {
+      "Question": "Quel est le pluriel du mot anneau?",
+      "reponse1": "anneaus",
+      "reponse2": "anneaux",
+      "reponse3": "anneau",
+      "reponse4": "aneaut",
+      "ReponseCorrecte": 2
+    },
+
+
+    {
+      "Question": "Quel est le singulier les bocaux",
+      "reponse1": "bocal",
+      "reponse2": "bocau",
+      "reponse3": "bocel",
+      "reponse4": "bosel",
+      "ReponseCorrecte": 1
+    },
+
+    {
+      "Question": "Donner le mot lapin au feminin",
+      "reponse1": "lapin",
+      "reponse2": "lapen",
+      "reponse3": "lapine",
+      "reponse4": "aucune",
+      "ReponseCorrecte": 3
+    },
+
+    {
+      "Question": "Quel est le masculin du actrice?",
+      "reponse1": "acteur",
+      "reponse2": "actrice",
+      "reponse3": "acteurs",
+      "reponse4": "aucune",
+      "ReponseCorrecte": 1
+    },
+    {
+      "Question": "Ajouter la terminison du présent sur 'je jou--'",
+      "reponse1": "et",
+      "reponse2": "er",
+      "reponse3": "es",
+      "reponse4": "e",
+      "ReponseCorrecte": 3
+
+    },
+    {
+      "Question": "Quel(s) sont les mots qui ne sont pas de la meme famille de mot 'vent'",
+      "reponse1": "paravent",
+      "reponse2": "solaire",
+      "reponse3": "venteux",
+      "reponse4": "éventail",
+      "ReponseCorrecte": 2
+    },
+    {
+      "Question": "Quel est le cri de lion?",
+      "reponse1": "butir",
+      "reponse2": "rugir",
+      "reponse3": "hurler",
+      "reponse4": "aucune",
+      "ReponseCorrecte": 2
+    },
+    {
+
+      "Question": "Relier le mot feminin au mot masculin 'danseuse'",
+      "reponse1": "danse",
+      "reponse2": "danseur",
+      "reponse3": "danses",
+      "reponse4": "aucune",
+      "ReponseCorrecte": 2
+
+    },
+    {
+      "Question": "Quel est le cri de souris ?",
+      "reponse1": "chicoter",
+      "reponse2": "raler",
+      "reponse3": "couiner",
+      "reponse4": "aucune",
+      "ReponseCorrecte": 1
+    }
+  ],
+  "type": 1
+}
